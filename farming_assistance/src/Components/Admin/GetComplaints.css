@@ -1,0 +1,15 @@
+.background-image {
+    background-color: darkcyan;
+    background-size: cover;
+    background-position: center;
+    height: 100vb;
+  }
+  
+
+.mb-2 {
+    font-size: medium;
+    color:black;
+    font-weight: 600;
+    
+}
+

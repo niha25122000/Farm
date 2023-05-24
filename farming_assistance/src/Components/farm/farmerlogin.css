@@ -1,0 +1,99 @@
+.f_login {
+    max-width: 30rem;
+    margin: 2rem auto;
+   margin-left: 3rem;
+    justify-content: left;
+    color: white;
+  }
+  .f_login label{
+    justify-content: left;
+    font-weight: 500;
+    width:100px;
+    margin-left: 0;
+    color:rgb(19, 2, 2);
+  }
+
+  /* .f_login label,
+  .f_login input,
+  .f_login textarea {
+    font-size: medium;
+    text-align: left;
+    display:flex;
+    width: 100%;
+    
+  } */
+  
+  .f_login input,
+  .f_login textarea {
+    font: inherit;
+    font-size: medium;
+    padding: 0.25rem;
+  }
+  
+  .f_a_login {
+    display: flex;
+    gap: 1rem;
+    justify-content:center;
+    
+    
+  }
+  .form {
+    display: flex;
+    /* margin-top: 15rem;
+    margin-left: 15rem; */
+    flex-direction: column;
+    align-items:left;
+ 
+  }
+  
+  .form-row1 {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 10px 10px;
+    align-items: left;
+    gap: 0px;
+    /* border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px; */
+  }
+  
+  .f_a_login button {
+    font: inherit;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: large;
+    padding: 0.5rem 3rem;
+    border: 3px solid white;
+    background-color: white;
+    
+    color:black;
+    border:none;
+    transition: all 0.3s;
+    justify-content: center;
+  }
+  
+  .f_a_login a {
+    text-decoration: none;
+    
+    color: var(--color-gray-300);
+  }
+  
+  .f_a_login button:hover {
+    background-color: rgb(76, 215, 76);
+    color:white;
+  }
+  
+  .f_a_login a:hover {
+    background-color: var(--color-gray-800);
+  }
+
+  .form-row1 img {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    /* right: 30px; */
+    left:320px;
+    top: 135px;
+  }

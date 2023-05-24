@@ -1,0 +1,174 @@
+.form {
+    max-width: 10rem;
+    margin: 6rem auto;
+    max-height: 10rem;
+    margin-top: 2rem;
+    margin-left: 17rem ;
+    justify-content: center;
+    
+  }
+  .form label{
+    justify-content: center;
+    font-weight: 500;
+    color: black;
+    
+  }
+  
+  .form label,
+  .form input,
+  .form textarea {
+    font-size: medium;
+    text-align: left;
+    display:flex;
+    width: 150%;
+  }
+  .show-password {
+    position: relative;
+    top: -20px;
+    right: -20px;
+    cursor: pointer;
+  }
+  
+  .form input,
+  .form textarea {
+    font: inherit;
+    font-size: medium;
+    padding: 0.25rem;   
+  }
+  
+  .actions {
+    display: flex;
+    gap: 1rem;
+    margin-left: 14rem;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    font-size: large;
+    padding: 0.5rem 3rem;
+  
+    border: 3px solid rgb(7, 7, 7);
+    background-color: #1eaf47;
+    color:black;
+    border:none;
+    transition: all 0.3s;
+    justify-content: center;
+  }
+  .form p{
+    font-size: small;
+  }
+  .actions a {
+    text-decoration: none;
+    
+    color: var(--color-gray-300);
+  }
+  
+  .actions button:hover {
+    background-color: rgb(124, 70, 52);
+  }
+  
+  .actions a:hover {
+    background-color: var(--color-gray-800);
+  }
+  /* .pwd-container {
+    /* position: relative;
+justify-content: center; */
+    /* width: 150px;
+    height:30px;
+    margin-left: 30px;
+  } */ */
+  
+  .pwd-container input {
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+   margin-left: 100rem;
+
+    /* image-orientation: inherit; */
+  }
+  
+  .pwd-container img {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+
+    /* right: 30px;
+    left:360px; */
+    /* top: 310px; */
+  } 
+ 
+
+  /* style for modal overlay */
+.ReactModal__Overlay {
+  position:fixed;
+  margin-top: 20px;
+  margin-left: 40rem;
+  right: 0;
+  bottom: 0;
+  width: 40%;
+  
+  /* z-index: 9999; */
+} 
+
+/* style for modal content 
+/* .ReactModal__Content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+  width: 500px;
+  max-width: 90%;
+}
+
+/* style for close button */
+/* .modal-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #000;
+}   */
+.error{
+  width:200%;
+}
+
+.form {
+  display: flex;
+  margin-top: 15rem;
+  margin-left: 15rem;
+  flex-direction: column;
+  align-items:center;
+  gap: 0px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding: 10px 10px;
+  align-items: center;
+  gap: 30px;
+  /* border-radius: 5px;
+  width: 550px;
+  margin: 20px auto;
+  padding: 20px; */
+}
+
+label {
+
+  width: 120px; /* Adjust the width as needed */
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 170px; /* Adjust the width as needed */
+}

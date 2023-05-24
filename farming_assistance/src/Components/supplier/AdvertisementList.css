@@ -1,0 +1,67 @@
+.advertisement-list-container {
+    background-color: #f5f5f5;
+    /* padding: 20px; */
+    text-align: center;
+  }
+  .advertisement-card body{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: medium;
+    
+  }
+  .advertisement-card {
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px 0px rgba(163, 106, 213, 0.489);
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+    transition: box-shadow 0.3s ease-in-out;
+    font-size:small;
+    align-items: center;
+  }
+  .advertisement-card title{
+    text-align: center;
+  }
+  .advertisement-card:hover {
+    box-shadow: 0px 0px 50px 0px rgba(163, 106, 213, 0.489);
+    background-color: rgba(0, 0, 0, 0.475);
+    color:white;
+  }
+  
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .advertisement-card {
+    margin: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card {
+    font-size: 1.2rem;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+  }
+  
+  
+  .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color:rgb(34, 28, 28);
+    border:#f5f5f5;
+    color: #f5f5f5;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  

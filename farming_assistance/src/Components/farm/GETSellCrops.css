@@ -1,0 +1,57 @@
+.SellCrop-card {
+  margin: 10px;
+  
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.SellCrop-card:hover {
+  transform: translateY(-5px);
+}
+
+.SellCrop-card .card {
+  border: none;
+  border-radius: 10px;
+  width:9rem;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.SellCrop-card .card-title {
+  font-size: 20px;
+  font-weight: 5rem;
+  justify-content: center;
+  
+  margin-left: 70px;
+  align-items: center;
+}
+.SellCrop-card body{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top:0;
+}
+
+.SellCrop-card .card-text {
+  font-size:small;
+  margin-top: 0;
+}
+
+.SellCrop-card .card-footer {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 0;
+}
+
+.SellCrop-card .card-footer button {
+  font-size: 11px;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+.SellCrop-card .card-footer button:first-child {
+  margin-left: 10px;
+}
